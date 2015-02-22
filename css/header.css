@@ -1,0 +1,118 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    cursor: auto;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+header {
+    /*border-bottom: 1px solid #ecf0f1;*/
+}
+
+body {
+    line-height: 1;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    /*border-bottom: 1px solid #bdc3c7;*/
+}
+
+header:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header #logo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    float: left;
+    color: #ffffff;
+    padding-top: 15px;
+    font-size: 30px;
+    /*font-style: 700;*/
+    padding-left: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+header nav {
+    float: right;
+    padding-top: 25px;
+    padding-right: 15px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+header nav ul {
+    margin: 0;
+    padding-bottom: 0px;
+    float: right;
+}
+
+header nav li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #27ae60;
+    cursor: pointer;
+}
+
+header nav ul li a:active {
+    color: #2ecc71;
+}
+
+header nav li + li {
+    padding-left: 15px;
+}
+
+body {
+    font-family: "OPEN SANS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    width: 100%;
+}
+svg{
+    z-index: -1;
+}
+text{
+    z-index: 9999;
+}
