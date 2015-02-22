@@ -1,2 +1,2 @@
 # junarStuff
-this is the junar stuff for opendsj - not done
+this is the junar stuff for opendsj - script complete, but graph is not
