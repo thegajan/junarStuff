@@ -1,2 +1,2 @@
 # junarStuff
-this is the junar stuff for opendsj
+this is the junar stuff for opendsj - not done
